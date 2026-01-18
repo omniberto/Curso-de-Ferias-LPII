@@ -10,4 +10,4 @@
     - Parte 2: Funções
     - Parte 3: Ponteiros e Funções
     - Parte 4: Aquivos
-- O Exercício Final é composto por 5 Questões, as respostas deverão ser enviadas como um repositório no *github*. Não é de caráter obrigatório, porém ajudará na fixação dos conteúdos."# Curso-de-Ferias-LPII" 
+- O Exercício Final é composto por 5 Questões, as respostas deverão ser enviadas como um repositório no *github*. Não é de caráter obrigatório, porém ajudará na fixação dos conteúdos.
