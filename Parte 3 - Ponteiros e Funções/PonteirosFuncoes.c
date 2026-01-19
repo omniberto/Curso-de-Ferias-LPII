@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Funções criadas para ser utilizadas
 double soma(double a, double b){
     return a + b;
 }
@@ -15,10 +16,14 @@ double divisao(double a, double b){
 }
 
 int main(void){
+
+    // Inicializando o variável de ponteiros
     double (**ponteiro_funcoes) (double, double) = malloc(4 * sizeof(double* (double, double)));
     for (int i = 0; i < 4; i++) {
         ponteiro_funcoes[i] = malloc (sizeof(double (double, double)));
     }
+
+    // Atribuindo as funções ao ponteiro
     ponteiro_funcoes[0] = &soma;
     ponteiro_funcoes[1] = &subtracao;
     ponteiro_funcoes[2] = &multiplicacao;

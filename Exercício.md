@@ -7,8 +7,8 @@
 - Matrícula
 - Média
 ### Crie um array com 5 Alunos e receba do usuário as informações, depois imprima na tela os alunos na ordem de entrada.
-#### Extra: Tente adicionar uma verificação para que não haja matrículas repetidas.
-#### Extra 2: Tente imprimir por ordem das médias.
+- #### Extra: Tente adicionar uma verificação para que não haja matrículas repetidas.
+- #### Extra 2: Tente imprimir por ordem das médias.
 ## 3 - Faça o mesmo que o **2**, mas desta vez utilizando Lista Encadeada.
 ## 4 - 
 ## 5 - Crie um sistema que armazene produtos de supermercado.
@@ -24,3 +24,6 @@
 ### O programa deverá fazer automaticamente:
 - Salvar os produtos em um arquivo;
 - Carregar os produtos do arquivo ao ser inicializado;
+### O programa deverá ter:
+- Tratamento de erros;
+- Envolver todos os conhecimentos presentes no curso;
