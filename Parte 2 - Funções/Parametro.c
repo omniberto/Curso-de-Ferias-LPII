@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+    Parâmetros são valores repassados pra funções e procedimentos para ser utilizado durante a sua execução.
+*/
+
 // Procedimento utilizando paramêtros
 void printfmod_procedimento(int val){
     printf("Recebi: %d\n", val);

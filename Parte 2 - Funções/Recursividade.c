@@ -17,6 +17,6 @@ int fibonacci(int termo){
 }
 
 int main(void){
-    printf("Fibonacci: %d", fibonacci(10));
+    printf("Fibonacci: %d", fibonacci(5));
     return 0;
 }

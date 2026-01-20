@@ -1,0 +1,4 @@
+Esta e a linha inicial do arquivo!
+Aqui um inteiro: 0, um float: 3.140000 e um char: c
+x
+Esta é a última linha do código!
