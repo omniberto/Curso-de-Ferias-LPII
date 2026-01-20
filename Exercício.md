@@ -10,7 +10,9 @@
 - #### Extra: Tente adicionar uma verificação para que não haja matrículas repetidas.
 - #### Extra 2: Tente imprimir por ordem das médias.
 ## 3 - Faça o mesmo que o **2**, mas desta vez utilizando Lista Encadeada.
-## 4 - 
+## 4 - Faça dois programas:
+- 1. Receba informações de temperatura e o dia e salve em um arquivo *txt*;
+- 2. Leia o arquivo *txt* e mostre a temperatura média de cada dia;
 ## 5 - Crie um sistema que armazene produtos de supermercado.
 ### Os produtos deverão ter:
 - Nome;
