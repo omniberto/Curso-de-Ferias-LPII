@@ -21,7 +21,7 @@ int main(void) {
         return 1;
     }
 
-    matriz_dinamica = malloc (tamanho * sizeof(int*));
+    matriz_dinamica = (int**) malloc (tamanho * sizeof(int*));
     if (matriz_dinamica != NULL) {
         for (int i = 0; i < tamanho; i++) {
             matriz_dinamica[i] = calloc (tamanho, sizeof(int)); // calloc inicializa os valores zerados.
@@ -31,7 +31,7 @@ int main(void) {
             vetor_dinamico[i] = i + 1;
         }
     }
-
+    // realloc(vetor_dinamico, (tamanho + 1) * sizeof(int));
     printf ("Vetor: ");
     for (int i = 0; i < tamanho; i++){
         printf ("%d ", vetor_dinamico[i]);
@@ -55,6 +55,7 @@ int main(void) {
         free (matriz_dinamica[i]);
         matriz_dinamica[i] = NULL;
     }
+    
     free (matriz_dinamica);
     matriz_dinamica = NULL;
 

@@ -3,7 +3,7 @@
 /*  
     Um procedimento não precisa retornar nada ao ser chamado, servindo apenas para executar um bloco de código.
     Seu uso mais comum é quando precisa-se imprimir coisas na tela de um jeito formatado.
-    Mas não se engane, este não seu único uso.
+    Mas não se engane, este é não seu único uso.
     Procedimentos geralmente não fornecem tratamento de erros, então, se algo falhar na execução não se terá um melhor entendimento do erro.
 */
 void printfmod_procedimento(){

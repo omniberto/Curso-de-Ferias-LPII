@@ -46,11 +46,13 @@ no* adicionaMeio(no* head, no* novo, int id){
     if (head == NULL){
         head = novo;
     }
-    for (no* aux = head; aux != NULL; aux = aux->prox){
-        if((aux->id == id) || (aux->prox == NULL)){
-            novo->prox = aux->prox;
-            aux->prox = novo;
-            break;
+    else{
+        for (no* aux = head; aux != NULL; aux = aux->prox){
+            if((aux->id == id) || (aux->prox == NULL)){
+                novo->prox = aux->prox;
+                aux->prox = novo;
+                break;
+            }
         }
     }
     return head;
@@ -94,7 +96,7 @@ no* liberaLista(no* head){
 no* liberaListaRecursiva(no* head){
     if(head == NULL)
         return NULL;
-    liberaListaRecursiva(head->prox);
+    head->prox = liberaListaRecursiva(head->prox);
     free(head);
     return NULL;
 }

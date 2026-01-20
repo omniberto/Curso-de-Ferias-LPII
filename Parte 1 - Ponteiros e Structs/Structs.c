@@ -19,12 +19,12 @@ typedef struct {
     char palavra[50];
 } estrutura_simples_2;
 
-typedef struct{
+typedef struct {
     int numero;
     char letra;
 } estrutura_simples_3;
 
-int main(void){
+int main(void) {
     // Inicializando struct com valores pós declaração
     struct estrutura_simples novo_struct;
     novo_struct.numero = 2;
